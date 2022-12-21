@@ -1,0 +1,514 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+  /* background-color: rgb(130, 161, 151); */
+  
+}
+
+body{
+  background-color:#F8F8FA;
+}
+
+header{
+  height: 500px;
+  /* border: 2px solid blue; */
+  background-color: rgb(71, 71, 233);
+
+}
+ 
+nav{
+/* border: 2px solid red; */
+  float: right;
+  margin-top: 10px;
+  /* width: 700px; */
+  /* height: 50px; */
+}
+
+.logo{
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-bottom: 100px;
+  height: 30px;
+}
+
+nav a{
+  color: white;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.nav-item-active{
+  /* border: 2px solid red; */
+ color: blue;
+  height: 80px;
+  text-align: center; 
+   background-color: #fff;
+  margin-top: 8px;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+ 
+}
+
+svg{
+  margin-right: 50px;
+}
+
+.header-text{
+  /* border: 2px solid green; */
+  float: left;
+  color: white;
+  margin-left: 35px;
+}
+
+.header-text img{
+  /* border: 2px solid red; */
+  /* margin-top: 100px; */
+  position: absolute;
+  top: 190px;
+}
+.header-text h2{
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+}
+
+.header-text p{
+  /* border: 2px solid purple; */
+  position: absolute;
+  top: 310px;
+}
+
+.header-image{
+  /* float: right; */
+  position: absolute;
+  top: 80px;
+  right: 8px;
+}
+
+
+/* COMPANY */
+
+.companies{
+  margin-left: 35px;
+  margin-top: 10px;
+  /* border: 2px solid red; */
+}
+
+.companies a{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin-right: 50px;
+  color: black;
+  font-weight: 600;
+}
+
+/* API */
+
+.api{
+  /* border: 2px solid red; */
+  /* display: flex; */
+}
+
+.api h1{
+  /* font-size: 25px; */
+  font-family: 'Montserrat', sans-serif;
+  /* border: 2px solid blue; */
+  margin-left: 35px;
+  margin-top: 50px;
+}
+
+.cards{
+  /* border: 2px solid blue; */
+  display: flex;
+  margin-left: 35px;
+  margin-top: 30px;
+  /* height: 180px; */
+}
+
+.card-active{
+  /* border: 2px solid brown; */
+  background-color: #fff;
+  padding: 10px;
+  height: 185px;
+  border-radius: 5px;
+
+}
+
+.card-active:hover{
+  background-color:  rgb(212, 182, 182);
+  border-radius: 8px;
+  height: 200px;
+}
+
+.card-head-active{
+  color: rgb(51, 51, 150);
+  /* border: 2px solid red; */
+  /* height: 185px; */
+}
+
+.card{
+  /* border: 2px solid yellow; */
+  margin-left: 28px;
+  padding: 10px;
+  height: 185px;
+}
+
+.card:hover{
+  background-color: rgb(212, 182, 182);
+  border-radius: 8px;
+  height: 200px;
+}
+
+.card-body{
+  font-size: 14px;
+}
+
+/* Blog section */
+.blog-heading {
+  /* border: 2px solid red; */
+  margin-top: 25px;
+}
+.blog-heading h1{
+  margin-left: 35px;
+  /* margin-top: 25px; */
+}
+ .blog-cards{
+  margin-left: 35px;
+  /* border: 2px solid green; */
+  display: flex;
+  height: 300px;
+ }
+
+ [alt="abc"]{
+  height: 310px;
+ }
+
+ .down{
+  margin-top: 38px;
+  /* border: 2px solid blue; */
+  display: flex;
+ }
+ 
+ .blog-author{
+  margin-left: 10px;
+  margin-top: 10px;
+  /* border: 2px solid black; */
+  font-size: 12px;
+ }
+
+
+
+.blog-card{
+  display: flex;
+}
+
+.problem{
+  width: 300px;
+  /* border: 2px solid red; */
+  margin: 0px 40px;
+  
+}
+
+.problem1{
+  width: 300px;
+  /* border: 2px solid goldenrod; */
+  margin: 0px 40px;
+}
+
+.blog-content h6{
+  color: blue;
+}
+
+.blog-content h3{
+  margin-top: -20px;
+  font-size: 22px;
+}
+
+.blog-content small{
+  margin-top: -20px;
+  /* border: 2px solid brown; */
+}
+
+
+
+
+ /* FAQ SECTION   */
+
+.faq-section{
+  margin-top: 85px;
+  background-color: rgb(223, 241, 236); 
+  /* border: 2px solid red; */
+  display: flex;
+  height: 325px;
+}
+
+.faq-content{
+  margin-left: 35px;
+  /* border: 2px solid green; */
+}
+
+.faq-content h2{
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.dfg{
+  font-size: 11px;
+  /* border: 2px solid rgb(221, 46, 104); */
+}
+
+.abc{
+  margin-top: 50px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  /* color: rgb(6, 61, 61); */
+  font-size:15px;
+  /* font-size: 20px; */
+  /* font-weight: bolder; */
+}
+
+.faq-image{
+  margin-left: 300px;
+  /* border: 2px solid black; */
+}
+
+button{
+  background-color: blue;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: white;
+
+  height: 30px;
+  cursor: pointer;
+  
+  /* margin-bottom: 20px; */
+}
+
+
+
+/* DOWNLOAD - SECTION */
+
+.download-section{
+  /* width: 95%; */
+  margin-top: 50px;
+  /* margin: auto; */
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.download-content h1{
+  margin-left: 35px;
+  
+}
+
+.download-content span{
+  /* color: blue; */
+  font-weight: 400;
+}
+
+.download-email{
+  /* border: 2px solid rgb(12, 11, 11); */
+  margin-right: 40px;
+  display: flex;
+  /* height: 200px; */
+}
+
+.download-email form{
+  /* background-color:rgb(223, 241, 236) ; */
+  /* border: 2px solid black; */
+  height: 30px;
+  margin-right: 20px;
+margin-top: 13px;
+/* color: rgb(109, 0, 0); */
+position: relative;
+/* left: 20px; */
+}
+
+.download-email form button{
+  border: 2px solid transparent;
+  border-radius: 18px;
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  right: -7px;
+  top: 9px;
+}
+
+
+
+[placeholder="Enter your email address"]{
+  border-radius: 20px;
+  background-color:rgb(223, 241, 236);
+  height: 45px;
+  /* border: 2px solid red; */
+  border: none;
+  margin-top: 7px;
+  outline: none;
+  width: 490px;
+  margin-right: -10px;
+  padding: 0px 20px;
+  color: rgb(5, 5, 5);
+}
+
+/* footer-section */
+
+.footer-section{
+/* border: 2px solid green; */
+background-color: blue;
+color: white;
+display: flex;
+justify-content: space-between;
+height: 205px;
+}
+
+.footer-left{
+  /* margin-left: 35px; */
+  /* border: 2px solid red; */
+}
+
+.footer-logo{
+  margin-left: 35px;
+  margin-top: 20px;
+  height: 35px;
+}
+
+.list{
+  /* border: 2px solid green; */
+  display: flex;
+  /* width: 200px; */
+  /* margin-right: 35px; */
+  position: relative;
+}
+
+.footer-left li{
+  cursor: pointer;
+
+}
+
+.footer-left li:nth-child(3)::before{
+  content: " ";
+  position: absolute;
+  right: 270px;
+  top: 3px;
+  width: 2px;
+  height: 14px;
+  background-color: white;
+  color: brown;
+  
+
+}
+
+.footer-left li:nth-child(4)::before{
+  content: " ";
+  position: absolute;
+  right: 195px;
+  top: 3px;
+  width: 2px;
+  height: 14px;
+  background-color: white;
+  color: brown;
+  
+
+}
+
+
+.footer-left li:nth-child(5)::before{
+  content: " ";
+  position: absolute;
+  right: 110px;
+  top: 3px;
+  width: 2px;
+  height: 14px;
+  background-color: white;
+  color: brown;
+  
+
+}
+
+.list li{
+  list-style-type: none;
+  font-size: 13px;
+  margin-right: 50px;
+
+}
+
+/* FOOTER RIGHT */
+
+.abcd{
+  /* border: 2px solid red; */
+  margin-top: 8px;
+  margin-right: 45px;
+}
+
+.abcd img{
+  margin-right: 5px;
+}
+
+.logos-list{
+  /* border: 2px solid green; */
+  display: flex;
+  /* margin-right: 40px; */
+  position: relative;
+}
+
+.logos-list li{
+  list-style-type: none;
+  font-size: 13px;
+  /* margin-right: 40px; */
+  cursor: pointer;
+ 
+}
+
+.logos-list li:nth-child(1){
+  /* color: brown; */
+  position: absolute;
+  top: 5px;
+  right: 180px;
+}
+
+.logos-list li:nth-child(2){
+  /* color: brown; */
+  position: absolute;
+  top: 5px;
+  right: 95px;
+}
+
+.logos-list li:nth-child(3){
+  /* color: brown; */
+  position: absolute;
+  top: 5px;
+  right: 35px;
+}
+
+
+
+.logos-list li:nth-child(2)::before{
+  content: " ";
+  position: absolute;
+  right: 63px;
+  top: 3px;
+  width: 2px;
+  height: 14px;
+  background-color: white;
+  color: brown;
+  
+}
+
+.logos-list li:nth-child(3)::before{
+  content: " ";
+  position: absolute;
+  right: 35px;
+  top: 3px;
+  width: 2px;
+  height: 14px;
+  background-color: white;
+  color: brown;
+  
+}
+
